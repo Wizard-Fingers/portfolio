@@ -1,0 +1,61 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Roboto+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+/* /fonts */
+
+/* headings */
+
+.heading {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* /headings */
+
+/* text */
+
+.text {
+  font-family: "Roboto Mono", monospace;
+}
+
+/* /text */
+
+/* written */
+
+.written {
+  font-family: "Shadows Into Light", cursive;
+}
+/* /written */
+
+/* background */
+
+body {
+  background-color: #1d1c1d;
+}
+
+/* /background */
+
+/* accent color */
+
+.accent {
+  color: #ff8a00 !important;
+}
+/* /accent color */
+
+/* primary color */
+
+.primary {
+  color: #ffffff !important;
+}
+
+/* /primary color */
+
+/* tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* /tailwind */
