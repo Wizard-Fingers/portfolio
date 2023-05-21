@@ -18,8 +18,8 @@ const Introduction = () => {
               </span>
               <span className="heading pl-3 mb-4">+</span>
             </h3>
-            <div className="heading">
-              <p>years of working experience</p>
+            <div className="heading mt-4">
+              <p>Years of Working Experience</p>
             </div>
           </div>
         </div>
@@ -30,18 +30,18 @@ const Introduction = () => {
               <span className="accent written text-6xl">40</span>
               <span className="heading pl-3 mb-4">+</span>
             </h3>
-            <div className="heading">
-              <p>Projects completed</p>
+            <div className="heading mt-4">
+              <p>Projects Completed</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-gray-400 px-6 py-6">
+      <div className="text-gray-400 px-6 py-12 text">
         <p>
-          <span className="text-center">Welcome to my portfolio!</span>
+          Welcome to my portfolio!
           <br />
           <br />
-          I&apos;m a passionate and self-taught Frontend Developer with a
+          I&apos;m a passionate self-taught Frontend Developer with a
           fundamental approach to crafting exceptional web experiences. I
           embarked on this incredible journey by graduating from a reputable
           Bootcamp, where I immersed myself in the world of coding and

@@ -5,7 +5,7 @@ import {
   FiLinkedin,
   FiMail,
   FiPhone,
-  FiDownload,
+  FiFileText,
 } from "react-icons/fi";
 import Button from "../components/button";
 import hero1 from "../../assets/images/hero-1.png";
@@ -49,23 +49,25 @@ const Hero = () => {
               <span className="heading text-4xl">Beckett</span>
             </h1>
           </header>
-          <div className="text-right pr-5 mt-[-10px] -translate-x-6">
+          <div className="text-right pr-4 mt-[-px] -translate-x-8">
             <h2 className="heading w-[10rem]">
               Frontend <br /> Web Developer
             </h2>
-            <div className="translate-y-7">
+            <div className="translate-y-5">
               <Button isSmall={true} onClick={handleDownload}>
-                <FiDownload />
+                <FiFileText />
               </Button>
             </div>
           </div>
         </div>
         <div className="flex justify-center my-3">
-          <img
-            src={imageSrc}
-            alt="Art Beckett"
-            className="w-[13rem] bg-slate-800 rounded-full ring-2 ring-slate-900 ring-offset-2"
-          />
+          <div className="bg-slate-800 rounded-full ring-2 ring-slate-900 ring-offset-2">
+            <img
+              src={imageSrc}
+              alt="Art Beckett"
+              className="w-[13rem] h-[13rem] object-cover rounded-full"
+            />
+          </div>
         </div>
         <div className="text-center">
           <p className="text-[1.2rem] font-semibold mb-2">

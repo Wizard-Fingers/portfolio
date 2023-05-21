@@ -12,6 +12,12 @@ const Nav = () => {
 
         <div className=" flex justify-center px-2">
           <Button isSmall={true}>
+            <FiMessageSquare />
+          </Button>
+        </div>
+
+        <div className=" flex justify-center px-2">
+          <Button isSmall={true}>
             <FiInfo />
           </Button>
         </div>
@@ -19,12 +25,6 @@ const Nav = () => {
         <div className=" flex justify-center px-2">
           <Button isSmall={true}>
             <FiCode />
-          </Button>
-        </div>
-
-        <div className=" flex justify-center px-2">
-          <Button isSmall={true}>
-            <FiMessageSquare />
           </Button>
         </div>
       </nav>
