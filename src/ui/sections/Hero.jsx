@@ -36,7 +36,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex m-2 mt-3">
+    <div className="flex m-2 mt-0">
       <section
         className="m-2 p-6 ring-2 ring-gray-500 hover:ring-white hover:shadow-2xl rounded-3xl max-w-[17rem] h-[30.8rem] transition delay-50 text-white hover:text-white bg-gray-900"
         onMouseEnter={handleMouseEnter}
@@ -70,9 +70,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="text-center">
-          <p className="text-[1.2rem] font-semibold mb-2">
-            Based in Swindon, UK
-          </p>
+          <p className="text-[1.3rem]  mb-2 heading">Based in Swindon, UK</p>
           <p className="text-[0.6rem]">
             &copy; {new Date().getFullYear()} All Rights Reserved
           </p>
@@ -115,7 +113,7 @@ const Hero = () => {
       <img
         src={pointer}
         alt="pointer"
-        className="w-[4rem] h-[4rem] -translate-x-2 -translate-y-4"
+        className="w-[3rem] h-[3rem] -translate-x-2 -translate-y-4"
       />
     </div>
   );

@@ -1,24 +1,41 @@
+import brain from "./assets/images/brain.png";
 import Hero from "./ui/sections/Hero.jsx";
 import Nav from "./ui/sections/Nav.jsx";
-import Introduction from "./ui/sections/Introduction.jsx";
+import Layout from "./ui/sections/Layout.jsx";
 
 function App() {
   return (
-    <div>
-      <div className="w-full flex justify-center lg:justify-between fixed">
-        <Hero />
-        <div className="lg:hidden">
-          <Introduction />
+    <>
+      <img
+        src={brain}
+        alt="a hand drawn picture of a brain as a background image"
+        className="hidden absolute top-0 right-0 -translate-y-8 object-fit rotate-12 xl:flex "
+      />
+      <div className="max-w-[1440px] mx-auto">
+        {/* On "lg" and up devices */}
+        <div className="-mt-[4rem] hidden md:flex md:justify-between fixed w-full">
+          <Hero />
+          <div className="lg:fixed mr-4 ml-4 lg:mt-[35rem] ">
+            <Nav />
+          </div>
         </div>
-        <Nav />
-      </div>
 
-      <div className="ml-[12rem] hidden lg:flex lg:justify-center">
-        <div className="w-[35rem]">
-          <Introduction />
+        {/* On "md" and "sm" devices */}
+        <div className="md:hidden">
+          <div className="flex justify-between">
+            <Hero />
+            <div className="mt-4 mx-4">
+              <Nav />
+            </div>
+          </div>
+        </div>
+
+        {/* Layout component */}
+        <div className="md:ml-[19.5rem] md:mr-[4rem]">
+          <Layout />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
