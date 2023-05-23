@@ -10,15 +10,15 @@ const Introduction = () => {
   return (
     <div className="mt-[5rem]">
       <div className="flex justify-center">
-        <div className="heading text-white p-2 mr-5">
+        <div className="heading text-white p-2 ">
           <div>
             <h3 className="text-4xl flex items-center justify-center">
               <span className="accent written text-6xl">
                 {numYears} {numYears > 1}
               </span>
-              <span className="heading pl-3 mb-4">+</span>
+              <span className="heading pr-4 mb-4">+</span>
             </h3>
-            <div className="heading mt-4">
+            <div className="heading mt-4 sm:text-center">
               <p>Years of Working Experience</p>
             </div>
           </div>
@@ -30,13 +30,13 @@ const Introduction = () => {
               <span className="accent written text-6xl">40</span>
               <span className="heading pl-3 mb-4">+</span>
             </h3>
-            <div className="heading mt-4">
+            <div className="heading mt-4 sm:text-center">
               <p>Projects Completed</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="text-gray-400 px-6 py-12 text">
+      <div className="text-gray-400 py-12 text m-2 md:">
         <p>
           Welcome to my portfolio!
           <br />
