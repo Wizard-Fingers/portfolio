@@ -31,7 +31,7 @@ function App() {
         </div>
 
         {/* Layout component */}
-        <div className="md:ml-[19.5rem] md:mr-[4rem]">
+        <div className="md:ml-[19.5rem] md:mr-[5rem]">
           <Layout />
         </div>
       </div>
